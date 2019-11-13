@@ -43,6 +43,7 @@ Partial Class fmMain
         Me.lblWithCard = New System.Windows.Forms.Label()
         Me.btNewStatus = New System.Windows.Forms.Button()
         Me.gbCommand = New System.Windows.Forms.GroupBox()
+        Me.lblSample = New System.Windows.Forms.Label()
         Me.rbCommPassword = New System.Windows.Forms.RadioButton()
         Me.txtReadWrite = New System.Windows.Forms.TextBox()
         Me.rbCommSN = New System.Windows.Forms.RadioButton()
@@ -51,7 +52,6 @@ Partial Class fmMain
         Me.rbCommCardNo = New System.Windows.Forms.RadioButton()
         Me.gbWrite = New System.Windows.Forms.GroupBox()
         Me.cbUL = New System.Windows.Forms.CheckBox()
-        Me.lblSample = New System.Windows.Forms.Label()
         Me.gbAuto.SuspendLayout()
         Me.gbCommand.SuspendLayout()
         Me.gbWrite.SuspendLayout()
@@ -250,6 +250,15 @@ Partial Class fmMain
         Me.gbCommand.TabStop = False
         Me.gbCommand.Text = "指令"
         '
+        'lblSample
+        '
+        Me.lblSample.AutoSize = True
+        Me.lblSample.Location = New System.Drawing.Point(538, 13)
+        Me.lblSample.Name = "lblSample"
+        Me.lblSample.Size = New System.Drawing.Size(50, 36)
+        Me.lblSample.TabIndex = 6
+        Me.lblSample.Text = "0 1 2 3" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "4 5 6 7" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "8 9 10 11"
+        '
         'rbCommPassword
         '
         Me.rbCommPassword.AutoSize = True
@@ -331,15 +340,6 @@ Partial Class fmMain
         Me.cbUL.TabIndex = 0
         Me.cbUL.Text = "UL"
         Me.cbUL.UseVisualStyleBackColor = True
-        '
-        'lblSample
-        '
-        Me.lblSample.AutoSize = True
-        Me.lblSample.Location = New System.Drawing.Point(538, 13)
-        Me.lblSample.Name = "lblSample"
-        Me.lblSample.Size = New System.Drawing.Size(50, 36)
-        Me.lblSample.TabIndex = 6
-        Me.lblSample.Text = "0 1 2 3" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "4 5 6 7" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "8 9 10 11"
         '
         'fmMain
         '
